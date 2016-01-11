@@ -9,4 +9,4 @@ handlers:
   static_dir: static
 
 - url: /.*
-  script: code.app
+  script: main.app
