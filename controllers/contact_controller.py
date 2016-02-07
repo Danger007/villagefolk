@@ -3,6 +3,6 @@ import webapp2
 from google.appengine.ext.webapp import template
 from utilities import template
 
-class MainPage(webapp2.RequestHandler):
+class ContactPage(webapp2.RequestHandler):
     def get(self):
-        template.render_template(self, 'index.html', {})
+        template.render_template(self, 'contact.html', {})
